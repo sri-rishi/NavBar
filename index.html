@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/041f23d2a5.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <nav>
-        <h1 class="title">Coding addict</h1>
-        <ul class="tab-list">
+        <div>
+            <h1 class="title">Coding addict</h1>
+
+            <button id="bars-btn" class="close">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        
+        <ul  class="list tab-list">
             <li class="tabs">
                 <a class="home-tab">Home</a>
             </li>
@@ -24,7 +33,7 @@
                 <a class="contact-tab">Contact</a>
             </li>
         </ul>
-        <ul class="contact-list">
+        <ul id="second-list" class="list contact-list">
             <li class="contact-items">
                 <a class="github">
                     <i class="fab fa-github"></i>
@@ -42,5 +51,7 @@
             </li>
         </ul>
     </nav>
+
+    <script src="script.js"></script>
 </body>
 </html>
