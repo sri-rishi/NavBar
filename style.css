@@ -100,4 +100,8 @@ ul {
         margin: 1rem
     }
 
+    #second-list i {
+        color: blue;
+    }
+
 }
